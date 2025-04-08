@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  font-family: "bree serif";
+}
+
+header h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}
+header h2 {
+  color: white;
+  font-size: 15px;
+}
+
+header {
+  background-color: rgb(128, 128, 128, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1px;
+  padding: 5x;
+  gap: 10%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.content-container {
+  background-color: black;
+  position: relative;
+}
+.content-container img {
+  width: 100%;
+  height: 100%;
+}
+.container-text {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  color: white;
+}
+
+.footer-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* I tried using the following code to make my header and footer smaller when the page was in mobile view but i could not manage this :( 
+
+@media (min-width: 320px) {
+  .header h1 {
+    font-size: x-small;
+    .footer-container {
+      font-size: x-small;
+    }
+  }
+}
