@@ -38,7 +38,7 @@ header {
 .container-text {
   position: absolute;
   bottom: 25px;
-  right: 25px;
+  left: 25px;
   color: white;
 }
 
@@ -50,4 +50,11 @@ header {
   justify-content: center;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+a:hover {
+  background-color: yellow;
+}
+button:hover {
+  background-color: yellow;
 }
