@@ -6,11 +6,11 @@ body {
 header h1 {
   font-weight: bold;
   color: orangered;
-  font-size: 40px;
+  font-size: 15rem;
 }
 header h2 {
   color: orange;
-  font-size: 15px;
+  font-size: 5rem;
 }
 
 header {
@@ -37,8 +37,8 @@ header {
 }
 .container-text {
   position: absolute;
-  bottom: 25px;
-  left: 25px;
+  bottom: 5rem;
+  left: 5rem;
   color: white;
 }
 
